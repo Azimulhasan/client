@@ -9,8 +9,6 @@ import "./styles/globals.css";
 // You can also import additional chains from `@thirdweb-dev/chains` and pass them directly.
 const activeChain = "ethereum";
 
-const container = document.getElementById("root");
-const root = createRoot(container);
 root.render(
   <React.StrictMode>
     <ThirdwebProvider activeChain={activeChain}>
